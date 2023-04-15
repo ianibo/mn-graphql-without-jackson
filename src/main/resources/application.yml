@@ -1,0 +1,16 @@
+micronaut:
+  application:
+    name: graphqltest
+netty:
+  default:
+    allocator:
+      max-order: 3
+
+
+
+graphql:
+  enabled: true
+  graphiql: # enables the /graphiql endpoint to test calls against your graph.
+    enabled: true
+
+
